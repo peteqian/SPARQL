@@ -23,5 +23,10 @@ Once you have the project installed, ensure all dependencies are downloaded and 
 ## Usage
 
 1. Queries are located in ```resources\queries``` folder.
-2. Change fileOne to the file name located to in the folder above.
+2. Change ```fileOne``` on line:65 to any of the query file names in ```resources\queries```.
 3. Run ```QueryExample.java``` file.
+
+
+### Example
+
+![image](https://user-images.githubusercontent.com/60642461/139572189-0ab76f73-6a76-4d9a-afd8-f30c4adc6f5c.png)
