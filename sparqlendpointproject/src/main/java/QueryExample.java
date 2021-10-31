@@ -62,7 +62,7 @@ public class QueryExample {
     public static void main(String[] args) throws IOException {
 
         // File
-        String fileOne = "testQuery.sparql";
+        String fileOne = "selectSubClass.sparql";
 
         // Path Query
         String PATH_QUERY = System.getProperty("user.dir")
