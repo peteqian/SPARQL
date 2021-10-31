@@ -1,0 +1,2168 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#"
+     xml:base="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:values-map-ontology-2="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#explicit_links_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#explicit_links_to">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#hasDefinition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#hasDefinition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#hasSubProvision -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#hasSubProvision">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#is-a-part-of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#hasValueItem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#hasValueItem">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#implicit_links_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#implicit_links_to">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#is-a-part-of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#is-a-part-of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#principleDerivesTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#principleDerivesTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#principleLink"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#rightOverall_Derives_To"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#subProvisionRight_Derives_To"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#principleDirectsTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#principleDirectsTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#principleLink"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#rightOverall_Directs_To"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#subProvisionRight_Directs_to"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#principleLink -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#principleLink"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#rightLink -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#rightLink"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#rightOverall_Derives_To -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#rightOverall_Derives_To">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#rightLink"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#rightOverall_Directs_To -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#rightOverall_Directs_To">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#rightLink"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#subProvisionRight_Derives_To -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#subProvisionRight_Derives_To">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#rightLink"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#subProvisionRight_Directs_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#subProvisionRight_Directs_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#rightLink"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Defintiion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Defintiion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Access -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Access">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Accuracy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Accuracy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Achievement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Achievement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Self-Directed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Automated_Decisions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Automated_Decisions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Basic_Information_about_Processing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Basic_Information_about_Processing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Benevolent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Benevolent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Caring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Caring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Benevolent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Concern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Concern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Universal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Conformity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Conformity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_Minimization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_Minimization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_Portability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_Portability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Dependability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Dependability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Benevolent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Dominance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Dominance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erasure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erasure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Face -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Face">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Fairness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Fairness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Hedonism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Hedonism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Humility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Humility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Integrity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Integrity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Interpersonal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Interpersonal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Conformity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Lawfulness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Lawfulness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Nature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Nature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Universal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Personal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Personal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Power -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Power">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Purpose_Limitation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Purpose_Limitation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rectification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rectification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Resources">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Power"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Restrict_Processing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Restrict_Processing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Right_Transparency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Right_Transparency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Subject_Rights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rules -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rules">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Conformity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Self-Directed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Self-Directed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Societal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Societal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Stimulated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Stimulated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Storage_Limitation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Storage_Limitation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#GDPR_Data_Protection_Principles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Thought -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Thought">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Self-Directed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Tolerance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Tolerance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Universal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Tradition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Tradition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Universal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Universal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Schwartz_Human_Values"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Access -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Access">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Access"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Automated_processing_with_significant_effects_on_data_subject"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Categories_of_data_being_processed"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Categories_of_recipients_data_is_shared_with"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Existence_of_Rights"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#If_and_where_Controller_is_processing_data"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Information_about_Processing"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#No_chagres_levied"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Source_of_data"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Storage_Period"/>
+        <rightOverall_Directs_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Lawfulness"/>
+        <rightOverall_Directs_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Achievement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Achievement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Achievement"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Achievement"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-ambitious-aspiring"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-capable-compotent"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-influential-impact-people-events"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-successful-achieving-goals"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Automated_decisions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Automated_decisions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Automated_Decisions"/>
+        <rightOverall_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Accuracy"/>
+        <rightOverall_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Lawfulness"/>
+        <rightOverall_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Purpose_Limitation"/>
+        <rightOverall_Directs_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Fairness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Automated_processing_with_significant_effects_on_data_subject -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Automated_processing_with_significant_effects_on_data_subject">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Access"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Fairness"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Basic_Information_about_Processing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Basic_Information_about_Processing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Basic_Information_about_Processing"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Information_about_Third_Parties"/>
+        <rightOverall_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Fairness"/>
+        <rightOverall_Directs_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Purpose_Limitation"/>
+        <rightOverall_Directs_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Benevolence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Benevolence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Benevolence-Caring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Benevolence-Caring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Caring"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Caring"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-family-security"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-forgiving"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-helpful-for-others"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-honest"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-safety-for-loved-ones"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Benevolence-Dependability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Benevolence-Dependability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Dependability"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Dependenability"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-loyal"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-responsible"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Categories_of_data_being_processed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Categories_of_data_being_processed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Access"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Data_Minimization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Categories_of_recipients_data_is_shared_with -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Categories_of_recipients_data_is_shared_with">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Access"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Integrity_and_Confidentiality"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Conformity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Conformity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Conformity-Interpersonal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Conformity-Interpersonal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Interpersonal"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Interpersonal"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-honor-parents"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-politeness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Conformity-Rules -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Conformity-Rules">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rules"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Rules"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Obediant"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-self-discipline-resist-temptation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_Portability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_Portability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_Portability"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Provide_copy_of_Personal_Data"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Should_be_commonly_used_format"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Should_be_machine_readable"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Should_be_structured"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Should_support_reuse"/>
+        <rightOverall_Directs_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_no_longer_needed_for_original_purpose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_no_longer_needed_for_original_purpose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Restrict_Processing"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Purpose_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Achievement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Achievement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Success according to social standards</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Action">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Freedom to determine ones own actions</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Caring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Caring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Devotion to the welfare of in-group members</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Concern -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Concern">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Commitment to equality, justice and protection for all
+people</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Dependenability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Dependenability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Being a reliable and trustworthy member of the in-group</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Dominance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Dominance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Power through exercising control over people</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Face -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Face">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Maintaining ones public image and avoiding humiliation</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Hedonism -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Hedonism">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Pleasure and sensuous gratification</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Humility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Humility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Recognizing one’s insignificance in the larger scheme of
+things</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Interpersonal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Interpersonal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Avoidance of upsetting or harming other people</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Nature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Nature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Preservation of the natural environment</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Personal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Personal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Safety in ones immediate environment</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Resources -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Resources">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Power through control of material and social resources</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Rules -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Rules">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Compliance with rules, laws, and formal obligations</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Societal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Societal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Safety and stability in the wider society</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Stimulation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Stimulation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Excitement, novelty, and change</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Thought -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Thought">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Freedom to cultivate ones own ideas and abilities</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Tolerance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Tolerance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Acceptance and understanding of those who are different
+from oneself</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Tradition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Tradition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition"/>
+        <Defintiion>Maintaining and preserving cultural, family or religious
+traditions</Defintiion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erase_when_consent_was_withdrawn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erase_when_consent_was_withdrawn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erasure"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Lawfulness"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Storage_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erase_when_data_is_no_longer_needed_for_original_purpose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erase_when_data_is_no_longer_needed_for_original_purpose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erasure"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Purpose_Limitation"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Storage_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erasure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erasure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erasure"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erase_when_consent_was_withdrawn"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erase_when_data_is_no_longer_needed_for_original_purpose"/>
+        <rightOverall_Directs_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Purpose_Limitation"/>
+        <rightOverall_Directs_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Storage_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Existence_of_Rights -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Existence_of_Rights">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Access"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Lawfulness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Face -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Face">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Face"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Face"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-maintaining-face"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-public-image"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-social-recognition"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-social-respect"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Hedonism -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Hedonism">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Hedonism"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Hedonism"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Pleasure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Humility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Humility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Humility"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Humility"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-accepting-life-circumstances"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-humble"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-self-effacing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#If_and_where_Controller_is_processing_data -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#If_and_where_Controller_is_processing_data">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Access"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Storage_Limitation"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Information_about_Processing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Information_about_Processing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Access"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Purpose_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Information_about_Third_Parties -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Information_about_Third_Parties">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Basic_Information_about_Processing"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Fairness"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Storage_Limitation"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Integrity_and_Confidentiality"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#No_chagres_levied -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#No_chagres_levied">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Access"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Fairness"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Lawfulness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object_to_direct_marketing"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object_to_processing"/>
+        <rightOverall_Directs_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Fairness"/>
+        <rightOverall_Directs_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Lawfulness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object_to_direct_marketing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object_to_direct_marketing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Fairness"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Lawfulness"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Purpose_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object_to_processing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object_to_processing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Fairness"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Lawfulness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Power -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Power"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Power-Dominance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Power-Dominance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Dominance"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Dominance"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Authority"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Right-to-Command"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Social-Power"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Power-Resources -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Power-Resources">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Resources"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Resources"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Material-Possession"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Wealth"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Accuracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Accuracy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Accuracy"/>
+        <explicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Power-Resources"/>
+        <implicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Face"/>
+        <implicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Power-Dominance"/>
+        <implicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Self-Direction-Action"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Automated_decisions"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rectification"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Restrict_Processing"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#When_accuracy_is_contested"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Data_Minimization -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Data_Minimization">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_Minimization"/>
+        <explicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Security-Personal"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Categories_of_data_being_processed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Fairness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Fairness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Fairness"/>
+        <explicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Benevolence-Caring"/>
+        <explicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Conformity-Rules"/>
+        <explicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Security-Societal"/>
+        <explicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Universalism-Concern"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Automated_processing_with_significant_effects_on_data_subject"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Basic_Information_about_Processing"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Information_about_Third_Parties"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#No_chagres_levied"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#easily_accessible"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Automated_decisions"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object_to_direct_marketing"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object_to_processing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Integrity_and_Confidentiality -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Integrity_and_Confidentiality">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Integrity"/>
+        <implicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Security-Personal"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Categories_of_recipients_data_is_shared_with"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Information_about_Third_Parties"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Lawfulness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Lawfulness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Lawfulness"/>
+        <explicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Power-Dominance"/>
+        <explicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Universalism-Concern"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Automated_decisions"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erase_when_consent_was_withdrawn"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#No_chagres_levied"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Source_of_data"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Access"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Existence_of_Rights"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object_to_direct_marketing"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object_to_processing"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Processing_is_unlawful"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Restrict_Processing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Purpose_Limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Purpose_Limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Purpose_Limitation"/>
+        <implicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Self-Direction-Action"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Automated_decisions"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Basic_Information_about_Processing"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_no_longer_needed_for_original_purpose"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erase_when_data_is_no_longer_needed_for_original_purpose"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erasure"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Information_about_Processing"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Object_to_direct_marketing"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Restrict_Processing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Storage_Limitation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Storage_Limitation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Storage_Limitation"/>
+        <explicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Power-Dominance"/>
+        <explicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Power-Resources"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#If_and_where_Controller_is_processing_data"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Information_about_Third_Parties"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erase_when_consent_was_withdrawn"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erase_when_data_is_no_longer_needed_for_original_purpose"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Erasure"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Storage_Period"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+        <explicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Benevolence-Caring"/>
+        <explicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Security-Personal"/>
+        <explicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Security-Societal"/>
+        <explicit_links_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Universalism-Concern"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#If_and_where_Controller_is_processing_data"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Should_be_commonly_used_format"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Should_be_machine_readable"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Should_be_structured"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Should_support_reuse"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#concise"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#easily_accessible"/>
+        <principleDerivesTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#intelligible"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Access"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Automated_processing_with_significant_effects_on_data_subject"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Basic_Information_about_Processing"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Categories_of_recipients_data_is_shared_with"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_Portability"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Information_about_Third_Parties"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Provide_copy_of_Personal_Data"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Source_of_data"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Transparency"/>
+        <principleDirectsTo rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#transparent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Processing_is_unlawful -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Processing_is_unlawful">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Restrict_Processing"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Lawfulness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Provide_copy_of_Personal_Data -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Provide_copy_of_Personal_Data">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Transparency"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rectification -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rectification">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rectification"/>
+        <rightOverall_Directs_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Accuracy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Restrict_Processing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Restrict_Processing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Restrict_Processing"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_no_longer_needed_for_original_purpose"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Processing_is_unlawful"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#When_accuracy_is_contested"/>
+        <rightOverall_Directs_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Accuracy"/>
+        <rightOverall_Directs_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Lawfulness"/>
+        <rightOverall_Directs_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Purpose_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Security -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Security"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Security-Personal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Security-Personal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Personal"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Personal"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Feeling-others-care"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Healthy"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Not-Sick"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Sense-of-belonging"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-avoiding-indebtedness"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-clean"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-family-security"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-reciprocating-favours"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-safety-for-loved-ones"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-tidy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Security-Societal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Security-Societal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Societal"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Societal"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-national-security"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-social-order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Self-Direction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Self-Direction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Self-Direction-Action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Self-Direction-Action">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Action"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Action"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Independent"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Privacy"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-choosing_own_goals"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-choosing_own_purposes"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-self-reliant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Self-Direction-Thought -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Self-Direction-Thought">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Thought"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Thought"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Curious"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Interested"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-creativity"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-imagination"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Should_be_commonly_used_format -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Should_be_commonly_used_format">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_Portability"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Should_be_machine_readable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Should_be_machine_readable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_Portability"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Should_be_structured -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Should_be_structured">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_Portability"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Should_support_reuse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Should_support_reuse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Data_Portability"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Source_of_data -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Source_of_data">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Access"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Lawfulness"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Stimulation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Stimulation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Stimulated"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Stimulation"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Daring"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-ExcitingLife"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-SeekingAdventure"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-StimulatingExperience"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-VariedLife"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Storage_Period -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Storage_Period">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Access"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Storage_Limitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Tradition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Tradition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Tradition"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Tradition"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Respect-Tradition"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-religious-faith"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Transparency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Transparency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Right_Transparency"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#concise"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#easily_accessible"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#intelligible"/>
+        <hasSubProvision rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#transparent"/>
+        <rightOverall_Directs_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Universalism -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Universalism"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Universalism-Concern -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Universalism-Concern">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Concern"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Concern"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-equality"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-social-justice"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-world-peace"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Universalism-Nature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Universalism-Nature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Nature"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Nature"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-protect-environment"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-unity-with-nature"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-world-beauty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Universalism-Tolerance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Universalism-Tolerance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Tolerance"/>
+        <hasDefinition rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Definition-Tolerance"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-broadminded"/>
+        <hasValueItem rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-wisdom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Authority -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Authority">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Right-to-Command"/>
+        <ValueName>Authority</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Curious -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Curious">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Interested"/>
+        <ValueName>curious</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Daring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Daring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-SeekingAdventure"/>
+        <ValueName>Daring</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-ExcitingLife -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-ExcitingLife">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-StimulatingExperience"/>
+        <ValueName>an exciting life experiences;</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Feeling-others-care -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Feeling-others-care">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Sense-of-belonging"/>
+        <ValueName>feeling others care about me</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Healthy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Healthy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Not-Sick"/>
+        <ValueName>healthy</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Independent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Independent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-self-reliant"/>
+        <ValueName>independent</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Interested -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Interested">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>interested</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Material-Possession -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Material-Possession">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Wealth"/>
+        <ValueName>Material Possessions</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Not-Sick -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Not-Sick">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>Not sick</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Obediant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Obediant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>meet obligations</ValueName>
+        <ValueName>obedient</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Pleasure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Pleasure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>Pleasure</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Privacy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Privacy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>privacy</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Respect-Tradition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Respect-Tradition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>preserve customs</ValueName>
+        <ValueName>respect tradition</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Right-to-Command -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Right-to-Command">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>Right to command</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Security-Personal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Security-Personal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>sense of belonging</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-SeekingAdventure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-SeekingAdventure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>daring/seeking adventure</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Sense-of-belonging -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Sense-of-belonging">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>sense of belonging</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Social-Power -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Social-Power">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>control over others</ValueName>
+        <ValueName>social power</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-StimulatingExperience -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-StimulatingExperience">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>stimulating experiences</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-VariedLife -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-VariedLife">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>a varied life</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Wealth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-Wealth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>Wealth</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-accepting-life-circumstances -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-accepting-life-circumstances">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>accepting my portion to life circumstances</ValueName>
+        <ValueName>submitting to lifes circumstances</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-ambitious-aspiring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-ambitious-aspiring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>ambitious</ValueName>
+        <ValueName>aspiring</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-avoiding-indebtedness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-avoiding-indebtedness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-reciprocating-favours"/>
+        <ValueName>avoiding indebtedness</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-broadminded -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-broadminded">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>broadminded</ValueName>
+        <ValueName>tolerant</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-capable-compotent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-capable-compotent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>capable</ValueName>
+        <ValueName>competent</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-choosing_own_goals -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-choosing_own_goals">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-choosing_own_purposes"/>
+        <ValueName>choosing own goals</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-choosing_own_purposes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-choosing_own_purposes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>choosing own purposes</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-clean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-clean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>clean</ValueName>
+        <ValueName>neat</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-creativity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-creativity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-imagination"/>
+        <ValueName>creativity</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-equality -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-equality">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>equality for all</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-family-security -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-family-security">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-safety-for-loved-ones"/>
+        <ValueName>family security</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-forgiving -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-forgiving">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>forgiving</ValueName>
+        <ValueName>willing to pardon</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-helpful-for-others -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-helpful-for-others">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>helpful for others welfare</ValueName>
+        <ValueName>working for others welfare</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-honest -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-honest">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>genuine</ValueName>
+        <ValueName>honest</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-honor-parents -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-honor-parents">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>honor parents</ValueName>
+        <ValueName>show respect</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-humble -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-humble">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>humble</ValueName>
+        <ValueName>modest</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-imagination -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-imagination">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>imagination</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-influential-impact-people-events -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-influential-impact-people-events">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>having an impact on people and events</ValueName>
+        <ValueName>influential impact on people and events</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-loyal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-loyal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>faithful to friends</ValueName>
+        <ValueName>loyal to friends</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-maintaining-face -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-maintaining-face">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-public-image"/>
+        <ValueName>maintaining face</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-national-security -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-national-security">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>nation safe from enemies</ValueName>
+        <ValueName>national security</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-politeness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-politeness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>courtesy</ValueName>
+        <ValueName>politeness</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-protect-environment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-protect-environment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>protect the environment</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-public-image -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-public-image">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>preserving public image</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-reciprocating-favours -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-reciprocating-favours">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>reciprocating favours</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-religious-faith -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-religious-faith">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>devout religious faith</ValueName>
+        <ValueName>hold religious faith</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-responsible -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-responsible">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>dependable</ValueName>
+        <ValueName>responsible</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-safety-for-loved-ones -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-safety-for-loved-ones">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>safety for loved ones</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-self-discipline-resist-temptation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-self-discipline-resist-temptation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>resist temptation</ValueName>
+        <ValueName>self-discipline</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-self-effacing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-self-effacing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>self-effacing</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-self-reliant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-self-reliant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>self-reliant</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-social-justice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-social-justice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>social-justice</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-social-order -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-social-order">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>social order</ValueName>
+        <ValueName>societal stability</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-social-recognition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-social-recognition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-social-respect"/>
+        <ValueName>social recognition</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-social-respect -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-social-respect">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>social respect</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-successful-achieving-goals -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-successful-achieving-goals">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>achieving goals</ValueName>
+        <ValueName>successful goals</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-tidy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-tidy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>tidy</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-unity-with-nature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-unity-with-nature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>unity with nature</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-wisdom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-wisdom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>mature understanding</ValueName>
+        <ValueName>wisdom</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-world-beauty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-world-beauty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>world beauty</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-world-peace -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem-world-peace">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#ValueItem"/>
+        <ValueName>world at peace</ValueName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#When_accuracy_is_contested -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#When_accuracy_is_contested">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Restrict_Processing"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Accuracy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#concise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#concise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Transparency"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#easily_accessible -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#easily_accessible">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Transparency"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Fairness"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#intelligible -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#intelligible">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Transparency"/>
+        <subProvisionRight_Derives_To rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#transparent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#transparent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Rights_Sub_Provisions"/>
+        <is-a-part-of rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Transparency"/>
+        <subProvisionRight_Directs_to rdf:resource="http://www.semanticweb.org/pancakemachinemaster/ontologies/2021/9/values-map-ontology-2#Principle_Transparency"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
