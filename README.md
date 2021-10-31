@@ -6,6 +6,7 @@ This is a project for Semantic Web to send queries to a fuseki API endpoint cont
 
 ### Fuseki Server
 
+#### Windows
 The fuseki server must be first activated by running the ```fuseki-server.bat``` which will start up the server on ```localhost:3030```. 
 
 Navigate to the endpoint on a browser (Firefox, Chrome, Brave, etc.) and you'll arrive to the welcome page.
