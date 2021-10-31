@@ -17,7 +17,7 @@ Upload the file ```dataset\Values-Map-Ontology-RDF-XML.owl``` to the dataset.
 
 ### SPARQL Project
 
-Next import the folder ```spaqrlendpointproject``` as a maven project as import from external sources. It is important that the folder you're working off is from the ```sparqlendpointproject``` folder as this is where the system will use as its path for finding the queries.
+Next import the folder ```spaqrlendpointproject``` as a maven project and import from external sources. It is important that the folder you're working off is from the ```sparqlendpointproject``` folder as this is where the system will use this path for finding the queries located in ```\resources``` folder.
 
 Once you have the project installed, ensure all dependencies are downloaded and indexed.
 
