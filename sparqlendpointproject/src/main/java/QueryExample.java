@@ -1,6 +1,7 @@
 import org.apache.jena.query.*;
 import org.apache.jena.sparql.engine.http.QueryEngineHTTP;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
@@ -59,8 +60,18 @@ public class QueryExample {
 
 
     public static void main(String[] args) throws IOException {
+
+        // File
+        String fileOne = "testQuery.sparql";
+
+        // Path Query
+        String PATH_QUERY = System.getProperty("user.dir")
+                + File.separator + File.separator + "src" + File.separator + "main"
+                + File.separator + "resources" + File.separator + "queries" + File.separator + fileOne;
+
         // SPARQL Query
-        String szQuery = "select * where {?Subject ?Predicate ?Object} LIMIT 10";
+        // String szQuery = "select * where {?Subject ?Predicate ?Object} LIMIT 10";
+        String szQuery = QueryFactory.read(PATH_QUERY).toString();
 
         // Arguments
         if (args != null && args.length == 1) {
